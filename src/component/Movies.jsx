@@ -1,4 +1,5 @@
 import { Movie } from "./Movie";
+import rell from '../1.PNG';
 
 function Movies(props) {
     const { movies = [] } = props;
@@ -9,7 +10,7 @@ function Movies(props) {
                 movies.map((movie) => <Movie key={movie.imdbID} {...movie} />)
             ) : (
                 <h4>No film reel
-                <img src="1.png" alt="" />
+                <img src={rell} alt="" />
                 </h4>
             )}
         </div>

@@ -12,4 +12,4 @@ function Header(){
     </nav>
 }
 
-export {Header};
+export { Header };
